@@ -279,7 +279,9 @@
     errorEl.style.display = 'none';
     Auth._closeAllModals();
     Utils.showToast('Welcome back, ' + result.user.name + '!', 'success');
-    Foodie.Components.updateAuthUI();
+    // Re-render entire header to show profile
+    Foodie.Components.renderHeader(Foodie.Components._lastHeaderOptions);
+    Foodie.Components.updateCartBadge();
     Auth._notifyAuthChange();
     return false;
   };
@@ -306,7 +308,9 @@
     errorEl.style.display = 'none';
     Auth._closeAllModals();
     Utils.showToast('Welcome to Foodie, ' + result.user.name + '!', 'success');
-    Foodie.Components.updateAuthUI();
+    // Re-render entire header to show profile
+    Foodie.Components.renderHeader(Foodie.Components._lastHeaderOptions);
+    Foodie.Components.updateCartBadge();
     Auth._notifyAuthChange();
     return false;
   };
