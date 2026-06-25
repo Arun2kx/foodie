@@ -130,7 +130,7 @@
     html += '</div>';
 
     html += '<div class="hero__stats">';
-    html += '<div><div class="hero__stat-value">45+</div><div class="hero__stat-label">Restaurants</div></div>';
+    html += '<div><div class="hero__stat-value">50+</div><div class="hero__stat-label">Restaurants</div></div>';
     html += '<div><div class="hero__stat-value">400+</div><div class="hero__stat-label">Dishes</div></div>';
     html += '<div><div class="hero__stat-value">30 min</div><div class="hero__stat-label">Avg Delivery</div></div>';
     html += '</div>';

@@ -1056,6 +1056,126 @@
           { id: 'item_45_9', name: 'Rose Falooda', price: 150, description: 'Traditional falooda with rose syrup, vermicelli, and ice cream', isVeg: true, isBestseller: true, category: 'Falooda', image: 'https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=300&h=250&fit=crop' },
           { id: 'item_45_10', name: 'Royal Falooda', price: 180, description: 'Loaded falooda with rabdi, dry fruits, ice cream, and jelly', isVeg: true, isBestseller: false, category: 'Falooda', image: 'https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=300&h=250&fit=crop' }
         ]
+      },
+      {
+        id: 'rest_46',
+        name: 'Karachi Bakery',
+        image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop',
+        cuisines: ['Bakery', 'Cakes', 'Biscuits', 'Desserts'],
+        rating: 4.6,
+        deliveryTime: '20-30 min',
+        costForTwo: 400,
+        isVeg: true,
+        offer: '20% OFF up to 120',
+        area: 'Moazzam Jahi Market',
+        menu: [
+          { id: 'item_46_1', name: 'Fruit Biscuits', price: 280, description: 'Iconic Karachi Bakery fruit biscuits — the Hyderabad classic', isVeg: true, isBestseller: true, category: 'Biscuits', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' },
+          { id: 'item_46_2', name: 'Osmania Biscuits', price: 220, description: 'Buttery Hyderabadi Osmania biscuits, perfect with chai', isVeg: true, isBestseller: true, category: 'Biscuits', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' },
+          { id: 'item_46_3', name: 'Belgian Chocolate Cake', price: 750, description: 'Rich 3-layer Belgian chocolate cake with ganache frosting', isVeg: true, isBestseller: true, category: 'Cakes', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=250&fit=crop' },
+          { id: 'item_46_4', name: 'Red Velvet Cake', price: 800, description: 'Classic red velvet with cream cheese frosting and white chocolate shavings', isVeg: true, isBestseller: false, category: 'Cakes', image: 'https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?w=300&h=250&fit=crop' },
+          { id: 'item_46_5', name: 'Butterscotch Pastry', price: 120, description: 'Soft sponge layered with butterscotch cream and caramel drizzle', isVeg: true, isBestseller: false, category: 'Pastries', image: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=300&h=250&fit=crop' },
+          { id: 'item_46_6', name: 'Black Forest Pastry', price: 130, description: 'Chocolate sponge with whipped cream, cherries, and chocolate flakes', isVeg: true, isBestseller: true, category: 'Pastries', image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=300&h=250&fit=crop' },
+          { id: 'item_46_7', name: 'Pineapple Cake', price: 650, description: 'Light vanilla sponge with pineapple filling and whipped cream', isVeg: true, isBestseller: false, category: 'Cakes', image: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=300&h=250&fit=crop' },
+          { id: 'item_46_8', name: 'Chicken Puff', price: 60, description: 'Flaky puff pastry filled with spiced minced chicken', isVeg: false, isBestseller: true, category: 'Savoury', image: 'https://images.unsplash.com/photo-1509365390695-33aee754301f?w=300&h=250&fit=crop' },
+          { id: 'item_46_9', name: 'Veg Puff', price: 45, description: 'Crispy golden puff with spiced potato and peas filling', isVeg: true, isBestseller: false, category: 'Savoury', image: 'https://images.unsplash.com/photo-1509365390695-33aee754301f?w=300&h=250&fit=crop' },
+          { id: 'item_46_10', name: 'Dilkush', price: 80, description: 'Sweet bread stuffed with tutti-frutti, coconut, and dry fruits', isVeg: true, isBestseller: true, category: 'Breads', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' }
+        ]
+      },
+      {
+        id: 'rest_47',
+        name: 'Monginis Cake Shop',
+        image: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&h=400&fit=crop',
+        cuisines: ['Cakes', 'Pastries', 'Desserts'],
+        rating: 4.2,
+        deliveryTime: '25-35 min',
+        costForTwo: 350,
+        isVeg: true,
+        offer: 'Flat 80 OFF',
+        area: 'Ameerpet',
+        menu: [
+          { id: 'item_47_1', name: 'Dutch Truffle Cake', price: 650, description: 'Dense chocolate truffle cake with dark chocolate ganache', isVeg: true, isBestseller: true, category: 'Cakes', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=250&fit=crop' },
+          { id: 'item_47_2', name: 'Mango Cheese Cake', price: 550, description: 'Creamy no-bake cheesecake with fresh mango puree topping', isVeg: true, isBestseller: true, category: 'Cakes', image: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=300&h=250&fit=crop' },
+          { id: 'item_47_3', name: 'Tiramisu Cake', price: 700, description: 'Italian-style cake with mascarpone cream and coffee-soaked sponge', isVeg: true, isBestseller: false, category: 'Cakes', image: 'https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=300&h=250&fit=crop' },
+          { id: 'item_47_4', name: 'Blueberry Cheesecake Pastry', price: 150, description: 'Mini cheesecake pastry with blueberry compote topping', isVeg: true, isBestseller: true, category: 'Pastries', image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=300&h=250&fit=crop' },
+          { id: 'item_47_5', name: 'Chocolate Eclair', price: 90, description: 'Choux pastry filled with chocolate cream and dipped in ganache', isVeg: true, isBestseller: false, category: 'Pastries', image: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=300&h=250&fit=crop' },
+          { id: 'item_47_6', name: 'Strawberry Shortcake', price: 160, description: 'Fluffy vanilla sponge with fresh strawberries and whipped cream', isVeg: true, isBestseller: false, category: 'Pastries', image: 'https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?w=300&h=250&fit=crop' },
+          { id: 'item_47_7', name: 'Choco Lava Cake', price: 180, description: 'Warm chocolate cake with molten chocolate center, served with ice cream', isVeg: true, isBestseller: true, category: 'Desserts', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=250&fit=crop' },
+          { id: 'item_47_8', name: 'Brownie with Ice Cream', price: 200, description: 'Fudgy walnut brownie served warm with vanilla ice cream', isVeg: true, isBestseller: false, category: 'Desserts', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_47_9', name: 'Banana Walnut Muffin', price: 100, description: 'Moist banana muffin loaded with crunchy walnuts', isVeg: true, isBestseller: false, category: 'Muffins', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' },
+          { id: 'item_47_10', name: 'Double Chocolate Muffin', price: 110, description: 'Rich chocolate muffin with chocolate chips inside', isVeg: true, isBestseller: false, category: 'Muffins', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=250&fit=crop' }
+        ]
+      },
+      {
+        id: 'rest_48',
+        name: 'Ribbons and Balloons',
+        image: 'https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?w=600&h=400&fit=crop',
+        cuisines: ['Cakes', 'Pastries', 'Desserts', 'Ice Cream'],
+        rating: 4.4,
+        deliveryTime: '20-30 min',
+        costForTwo: 450,
+        isVeg: true,
+        offer: '30% OFF up to 150',
+        area: 'Kondapur',
+        menu: [
+          { id: 'item_48_1', name: 'Death by Chocolate Cake', price: 850, description: 'Ultimate chocolate overload — 4 layers of chocolate cake with fudge and ganache', isVeg: true, isBestseller: true, category: 'Cakes', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=250&fit=crop' },
+          { id: 'item_48_2', name: 'Oreo Cheesecake', price: 750, description: 'Creamy cheesecake on Oreo crust with crushed Oreo topping', isVeg: true, isBestseller: true, category: 'Cakes', image: 'https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=300&h=250&fit=crop' },
+          { id: 'item_48_3', name: 'Fresh Fruit Gateau', price: 700, description: 'Light sponge with seasonal fruits, custard, and whipped cream', isVeg: true, isBestseller: false, category: 'Cakes', image: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=300&h=250&fit=crop' },
+          { id: 'item_48_4', name: 'Caramel Crunch Pastry', price: 140, description: 'Buttery pastry with salted caramel cream and crunchy praline bits', isVeg: true, isBestseller: false, category: 'Pastries', image: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=300&h=250&fit=crop' },
+          { id: 'item_48_5', name: 'Mango Mousse Pastry', price: 150, description: 'Fluffy mango mousse on sponge base with mango glaze', isVeg: true, isBestseller: true, category: 'Pastries', image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=300&h=250&fit=crop' },
+          { id: 'item_48_6', name: 'Tiramisu Cup', price: 220, description: 'Classic Italian tiramisu served in a cup with cocoa dusting', isVeg: true, isBestseller: false, category: 'Desserts', image: 'https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=300&h=250&fit=crop' },
+          { id: 'item_48_7', name: 'Jar Cake - Red Velvet', price: 250, description: 'Layered red velvet cake with cream cheese in a glass jar', isVeg: true, isBestseller: true, category: 'Jar Cakes', image: 'https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?w=300&h=250&fit=crop' },
+          { id: 'item_48_8', name: 'Jar Cake - Nutella', price: 270, description: 'Chocolate sponge layered with Nutella cream in a jar', isVeg: true, isBestseller: false, category: 'Jar Cakes', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=250&fit=crop' },
+          { id: 'item_48_9', name: 'Croissant - Chocolate', price: 130, description: 'Buttery flaky croissant filled with rich chocolate', isVeg: true, isBestseller: false, category: 'Breads', image: 'https://images.unsplash.com/photo-1509365390695-33aee754301f?w=300&h=250&fit=crop' },
+          { id: 'item_48_10', name: 'Danish Pastry', price: 120, description: 'Flaky pastry swirled with custard cream and fruit topping', isVeg: true, isBestseller: false, category: 'Breads', image: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=300&h=250&fit=crop' }
+        ]
+      },
+      {
+        id: 'rest_49',
+        name: 'CakeBee',
+        image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=600&h=400&fit=crop',
+        cuisines: ['Cakes', 'Cupcakes', 'Desserts'],
+        rating: 4.3,
+        deliveryTime: '30-40 min',
+        costForTwo: 500,
+        isVeg: true,
+        offer: 'Flat 100 OFF',
+        area: 'Madhapur',
+        menu: [
+          { id: 'item_49_1', name: 'Pull Me Up Cake', price: 950, description: 'Trending dome cake with chocolate shell that lifts to reveal dripping ganache', isVeg: true, isBestseller: true, category: 'Designer Cakes', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=250&fit=crop' },
+          { id: 'item_49_2', name: 'Pinata Cake', price: 1100, description: 'Smash-the-heart cake filled with chocolates and sprinkles', isVeg: true, isBestseller: true, category: 'Designer Cakes', image: 'https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?w=300&h=250&fit=crop' },
+          { id: 'item_49_3', name: 'Bento Cake', price: 450, description: 'Korean-style mini cake with custom message, perfect for 2', isVeg: true, isBestseller: true, category: 'Designer Cakes', image: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=300&h=250&fit=crop' },
+          { id: 'item_49_4', name: 'Red Velvet Cupcake (Box of 6)', price: 480, description: 'Six red velvet cupcakes with cream cheese frosting swirl', isVeg: true, isBestseller: true, category: 'Cupcakes', image: 'https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?w=300&h=250&fit=crop' },
+          { id: 'item_49_5', name: 'Salted Caramel Cupcake (Box of 6)', price: 520, description: 'Caramel cupcakes topped with salted caramel buttercream', isVeg: true, isBestseller: false, category: 'Cupcakes', image: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=300&h=250&fit=crop' },
+          { id: 'item_49_6', name: 'Lotus Biscoff Cheesecake', price: 750, description: 'Creamy cheesecake with Lotus Biscoff crust and cookie butter swirl', isVeg: true, isBestseller: true, category: 'Cakes', image: 'https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=300&h=250&fit=crop' },
+          { id: 'item_49_7', name: 'Ferrero Rocher Cake', price: 900, description: 'Hazelnut chocolate cake topped with Ferrero Rocher and gold dust', isVeg: true, isBestseller: false, category: 'Cakes', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=250&fit=crop' },
+          { id: 'item_49_8', name: 'Cookie Dough Brownie', price: 220, description: 'Fudgy brownie topped with edible cookie dough and chocolate chips', isVeg: true, isBestseller: false, category: 'Brownies', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_49_9', name: 'Nutella Brownie', price: 200, description: 'Dense chocolate brownie with a gooey Nutella center', isVeg: true, isBestseller: false, category: 'Brownies', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=250&fit=crop' },
+          { id: 'item_49_10', name: 'Cake Pops (Box of 8)', price: 350, description: 'Assorted cake pops — chocolate, vanilla, and red velvet on sticks', isVeg: true, isBestseller: false, category: 'Desserts', image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=300&h=250&fit=crop' }
+        ]
+      },
+      {
+        id: 'rest_50',
+        name: 'Almond House',
+        image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop',
+        cuisines: ['Sweets', 'Cakes', 'Dry Fruits', 'Bakery'],
+        rating: 4.5,
+        deliveryTime: '20-30 min',
+        costForTwo: 500,
+        isVeg: true,
+        offer: '15% OFF up to 100',
+        area: 'Banjara Hills',
+        menu: [
+          { id: 'item_50_1', name: 'Kaju Katli', price: 600, description: 'Premium thin cashew fudge — the king of Indian sweets', isVeg: true, isBestseller: true, category: 'Sweets', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' },
+          { id: 'item_50_2', name: 'Double Ka Meetha', price: 180, description: 'Hyderabadi bread pudding soaked in saffron milk with dry fruits', isVeg: true, isBestseller: true, category: 'Sweets', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' },
+          { id: 'item_50_3', name: 'Qubani Ka Meetha', price: 200, description: 'Traditional Hyderabadi apricot dessert with cream and ice cream', isVeg: true, isBestseller: true, category: 'Sweets', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' },
+          { id: 'item_50_4', name: 'Motichoor Laddu (500g)', price: 350, description: 'Fine boondi laddus soaked in sugar syrup with cardamom', isVeg: true, isBestseller: false, category: 'Sweets', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' },
+          { id: 'item_50_5', name: 'Chocolate Truffle Cake', price: 750, description: 'Rich dark chocolate truffle cake with ganache layers', isVeg: true, isBestseller: true, category: 'Cakes', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=250&fit=crop' },
+          { id: 'item_50_6', name: 'Butterscotch Cake', price: 650, description: 'Vanilla sponge with butterscotch cream and praline crunch', isVeg: true, isBestseller: false, category: 'Cakes', image: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=300&h=250&fit=crop' },
+          { id: 'item_50_7', name: 'Badam Halwa', price: 400, description: 'Rich almond halwa slow-cooked in ghee with saffron and cardamom', isVeg: true, isBestseller: true, category: 'Sweets', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' },
+          { id: 'item_50_8', name: 'Dry Fruit Box (Premium)', price: 900, description: 'Assorted premium dry fruits — almonds, cashews, pistachios, raisins', isVeg: true, isBestseller: false, category: 'Dry Fruits', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' },
+          { id: 'item_50_9', name: 'Mysore Pak', price: 320, description: 'Melt-in-mouth gram flour sweet with generous ghee and sugar', isVeg: true, isBestseller: false, category: 'Sweets', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' },
+          { id: 'item_50_10', name: 'Assorted Cookies Box', price: 350, description: 'Gift box with butter, chocolate chip, oatmeal, and almond cookies', isVeg: true, isBestseller: false, category: 'Bakery', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=250&fit=crop' }
+        ]
       }
     ]
   };
