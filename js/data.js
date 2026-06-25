@@ -933,6 +933,129 @@
           { id: 'item_40_9', name: 'Gobi Manchurian', price: 170, description: 'Cauliflower florets in spicy Manchurian sauce', isVeg: true, isBestseller: false, category: 'Chinese', image: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=300&h=250&fit=crop' },
           { id: 'item_40_10', name: 'Kulfi', price: 70, description: 'Traditional Indian frozen cream dessert', isVeg: true, isBestseller: false, category: 'Desserts', image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=250&fit=crop' }
         ]
+      },
+
+      // ----- Ice Cream Restaurants -----
+
+      {
+        id: 'rest_41',
+        name: 'Naturals Ice Cream',
+        image: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=600&h=400&fit=crop',
+        cuisines: ['Ice Cream', 'Desserts'],
+        rating: 4.7,
+        deliveryTime: '15-20 min',
+        costForTwo: 300,
+        isVeg: true,
+        offer: null,
+        area: 'Banjara Hills',
+        menu: [
+          { id: 'item_41_1', name: 'Tender Coconut Ice Cream', price: 120, description: 'Signature ice cream made with fresh tender coconut pulp', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=300&h=250&fit=crop' },
+          { id: 'item_41_2', name: 'Sitaphal Ice Cream', price: 130, description: 'Seasonal custard apple ice cream with real fruit chunks', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?w=300&h=250&fit=crop' },
+          { id: 'item_41_3', name: 'Alphonso Mango', price: 140, description: 'Rich and creamy mango ice cream made with Alphonso mangoes', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=250&fit=crop' },
+          { id: 'item_41_4', name: 'Roasted Almond', price: 130, description: 'Creamy ice cream loaded with crunchy roasted almonds', isVeg: true, isBestseller: false, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_41_5', name: 'Chikoo Ice Cream', price: 110, description: 'Sweet sapodilla flavored ice cream with natural sweetness', isVeg: true, isBestseller: false, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?w=300&h=250&fit=crop' },
+          { id: 'item_41_6', name: 'Black Currant', price: 120, description: 'Tangy and sweet black currant flavored ice cream', isVeg: true, isBestseller: false, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=300&h=250&fit=crop' },
+          { id: 'item_41_7', name: 'Jackfruit Ice Cream', price: 130, description: 'Tropical jackfruit flavored ice cream with fruit pieces', isVeg: true, isBestseller: false, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=300&h=250&fit=crop' },
+          { id: 'item_41_8', name: 'Pista Kulfi', price: 100, description: 'Traditional pistachio kulfi on a stick', isVeg: true, isBestseller: false, category: 'Kulfi', image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=250&fit=crop' },
+          { id: 'item_41_9', name: 'Mango Kulfi', price: 90, description: 'Creamy mango flavored kulfi with saffron', isVeg: true, isBestseller: false, category: 'Kulfi', image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?w=300&h=250&fit=crop' },
+          { id: 'item_41_10', name: 'Strawberry Sundae', price: 160, description: 'Strawberry ice cream topped with fresh berries and whipped cream', isVeg: true, isBestseller: false, category: 'Sundaes', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' }
+        ]
+      },
+      {
+        id: 'rest_42',
+        name: 'Baskin Robbins',
+        image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&h=400&fit=crop',
+        cuisines: ['Ice Cream', 'Desserts', 'Shakes'],
+        rating: 4.4,
+        deliveryTime: '20-25 min',
+        costForTwo: 450,
+        isVeg: true,
+        offer: 'Buy 1 Get 1 Free',
+        area: 'Hitech City',
+        menu: [
+          { id: 'item_42_1', name: 'Mississippi Mud', price: 180, description: 'Rich chocolate ice cream with fudge and cookie pieces', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_42_2', name: 'Pralines n Cream', price: 180, description: 'Vanilla ice cream swirled with praline-coated pecans and caramel', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?w=300&h=250&fit=crop' },
+          { id: 'item_42_3', name: 'Gold Medal Ribbon', price: 170, description: 'Chocolate and vanilla ice cream with a caramel ribbon', isVeg: true, isBestseller: false, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=250&fit=crop' },
+          { id: 'item_42_4', name: 'Cookie n Cream Shake', price: 220, description: 'Thick milkshake blended with Oreo cookies and vanilla ice cream', isVeg: true, isBestseller: true, category: 'Shakes', image: 'https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=300&h=250&fit=crop' },
+          { id: 'item_42_5', name: 'Mango Tango', price: 180, description: 'Refreshing mango sorbet with tropical fruit flavors', isVeg: true, isBestseller: false, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=300&h=250&fit=crop' },
+          { id: 'item_42_6', name: 'Chocolate Brownie Sundae', price: 280, description: 'Warm brownie topped with scoops of ice cream, hot fudge, and nuts', isVeg: true, isBestseller: true, category: 'Sundaes', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_42_7', name: 'Banana Split', price: 260, description: 'Classic banana split with three scoops, sauces, and cherry on top', isVeg: true, isBestseller: false, category: 'Sundaes', image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=250&fit=crop' },
+          { id: 'item_42_8', name: 'Strawberry Cheesecake', price: 190, description: 'Strawberry ice cream with cheesecake chunks and graham cracker pieces', isVeg: true, isBestseller: false, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=300&h=250&fit=crop' },
+          { id: 'item_42_9', name: 'Ice Cream Cake (500g)', price: 450, description: 'Layered ice cream cake with chocolate and vanilla — serves 4', isVeg: true, isBestseller: false, category: 'Cakes', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_42_10', name: 'Berry Blast Shake', price: 210, description: 'Mixed berry milkshake with blueberry and strawberry ice cream', isVeg: true, isBestseller: false, category: 'Shakes', image: 'https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=300&h=250&fit=crop' }
+        ]
+      },
+      {
+        id: 'rest_43',
+        name: 'Ibaco',
+        image: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=600&h=400&fit=crop',
+        cuisines: ['Ice Cream', 'Desserts', 'Cakes'],
+        rating: 4.3,
+        deliveryTime: '15-25 min',
+        costForTwo: 350,
+        isVeg: true,
+        offer: '15% OFF up to 60',
+        area: 'Kukatpally',
+        menu: [
+          { id: 'item_43_1', name: 'Belgian Dark Chocolate', price: 160, description: 'Premium dark chocolate ice cream with cocoa nibs', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_43_2', name: 'Butterscotch Crunch', price: 140, description: 'Butterscotch ice cream with caramelized sugar crunch bits', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?w=300&h=250&fit=crop' },
+          { id: 'item_43_3', name: 'French Vanilla', price: 130, description: 'Classic smooth vanilla ice cream with real vanilla beans', isVeg: true, isBestseller: false, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=300&h=250&fit=crop' },
+          { id: 'item_43_4', name: 'Cookie Dough', price: 170, description: 'Vanilla ice cream loaded with chocolate chip cookie dough pieces', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=250&fit=crop' },
+          { id: 'item_43_5', name: 'Mint Chocolate Chip', price: 150, description: 'Cool mint ice cream with dark chocolate chips', isVeg: true, isBestseller: false, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=300&h=250&fit=crop' },
+          { id: 'item_43_6', name: 'Waffle Cone Sundae', price: 220, description: 'Crispy waffle cone filled with ice cream, fudge, and sprinkles', isVeg: true, isBestseller: false, category: 'Sundaes', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_43_7', name: 'Blueberry Cheesecake Cone', price: 180, description: 'Blueberry cheesecake ice cream in a chocolate-dipped cone', isVeg: true, isBestseller: false, category: 'Cones', image: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=300&h=250&fit=crop' },
+          { id: 'item_43_8', name: 'Choco Lava Cake', price: 190, description: 'Warm chocolate lava cake served with vanilla ice cream', isVeg: true, isBestseller: true, category: 'Desserts', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_43_9', name: 'Ice Cream Sandwich', price: 120, description: 'Chocolate ice cream sandwiched between two soft cookies', isVeg: true, isBestseller: false, category: 'Desserts', image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=250&fit=crop' },
+          { id: 'item_43_10', name: 'Mango Mastani', price: 200, description: 'Thick mango milkshake topped with ice cream scoop and dry fruits', isVeg: true, isBestseller: false, category: 'Shakes', image: 'https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=300&h=250&fit=crop' }
+        ]
+      },
+      {
+        id: 'rest_44',
+        name: 'Cold Stone Creamery',
+        image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?w=600&h=400&fit=crop',
+        cuisines: ['Ice Cream', 'Desserts', 'Waffles'],
+        rating: 4.5,
+        deliveryTime: '20-30 min',
+        costForTwo: 500,
+        isVeg: true,
+        offer: '30% OFF up to 100',
+        area: 'Jubilee Hills',
+        menu: [
+          { id: 'item_44_1', name: 'Founder\'s Favourite', price: 280, description: 'Sweet cream ice cream with pecans, brownie, fudge, and caramel', isVeg: true, isBestseller: true, category: 'Signature', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_44_2', name: 'Birthday Cake Remix', price: 260, description: 'Cake batter ice cream with rainbow sprinkles and brownie', isVeg: true, isBestseller: true, category: 'Signature', image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?w=300&h=250&fit=crop' },
+          { id: 'item_44_3', name: 'Peanut Butter Cup Perfection', price: 290, description: 'Chocolate ice cream with peanut butter cups and fudge', isVeg: true, isBestseller: false, category: 'Signature', image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=250&fit=crop' },
+          { id: 'item_44_4', name: 'Berry Berry Berry Good', price: 270, description: 'Strawberry ice cream mixed with blueberries and raspberries', isVeg: true, isBestseller: false, category: 'Signature', image: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=300&h=250&fit=crop' },
+          { id: 'item_44_5', name: 'Chocolate Devotion', price: 280, description: 'Chocolate ice cream with chocolate chips, brownie, and fudge', isVeg: true, isBestseller: true, category: 'Signature', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_44_6', name: 'Belgian Chocolate Waffle', price: 320, description: 'Warm Belgian waffle topped with chocolate ice cream and drizzle', isVeg: true, isBestseller: true, category: 'Waffles', image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?w=300&h=250&fit=crop' },
+          { id: 'item_44_7', name: 'Red Velvet Waffle', price: 310, description: 'Red velvet waffle with cream cheese ice cream and berry sauce', isVeg: true, isBestseller: false, category: 'Waffles', image: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=300&h=250&fit=crop' },
+          { id: 'item_44_8', name: 'Salted Caramel Shake', price: 250, description: 'Thick shake with salted caramel ice cream and whipped cream', isVeg: true, isBestseller: false, category: 'Shakes', image: 'https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=300&h=250&fit=crop' },
+          { id: 'item_44_9', name: 'Oreo Overload Shake', price: 260, description: 'Cookie cream ice cream blended with Oreo pieces', isVeg: true, isBestseller: false, category: 'Shakes', image: 'https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=300&h=250&fit=crop' },
+          { id: 'item_44_10', name: 'Ice Cream Cupcake', price: 180, description: 'Chocolate cupcake topped with a swirl of vanilla ice cream', isVeg: true, isBestseller: false, category: 'Desserts', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' }
+        ]
+      },
+      {
+        id: 'rest_45',
+        name: 'Rollick\'s Ice Cream',
+        image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=600&h=400&fit=crop',
+        cuisines: ['Ice Cream', 'Frozen Yogurt', 'Desserts'],
+        rating: 4.2,
+        deliveryTime: '15-20 min',
+        costForTwo: 250,
+        isVeg: true,
+        offer: 'Flat 50 OFF',
+        area: 'Ameerpet',
+        menu: [
+          { id: 'item_45_1', name: 'Gulab Jamun Ice Cream', price: 130, description: 'Desi fusion — ice cream swirled with gulab jamun pieces and rose syrup', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=300&h=250&fit=crop' },
+          { id: 'item_45_2', name: 'Pan Masala Ice Cream', price: 120, description: 'Unique paan flavored ice cream with gulkand and fennel', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=300&h=250&fit=crop' },
+          { id: 'item_45_3', name: 'Kesar Pista', price: 120, description: 'Classic saffron and pistachio ice cream with dry fruit toppings', isVeg: true, isBestseller: false, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?w=300&h=250&fit=crop' },
+          { id: 'item_45_4', name: 'Chocolate Fudge Fantasy', price: 150, description: 'Dark chocolate ice cream with hot fudge ribbons and brownie bites', isVeg: true, isBestseller: true, category: 'Ice Cream', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_45_5', name: 'Mango Froyo', price: 130, description: 'Tangy mango frozen yogurt with fresh mango chunks', isVeg: true, isBestseller: false, category: 'Frozen Yogurt', image: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=300&h=250&fit=crop' },
+          { id: 'item_45_6', name: 'Blueberry Froyo', price: 140, description: 'Creamy blueberry frozen yogurt with berry compote', isVeg: true, isBestseller: false, category: 'Frozen Yogurt', image: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?w=300&h=250&fit=crop' },
+          { id: 'item_45_7', name: 'Butterscotch Sundae', price: 170, description: 'Butterscotch ice cream with caramel sauce and crunchy praline', isVeg: true, isBestseller: false, category: 'Sundaes', image: 'https://images.unsplash.com/photo-1557142046-c704a3adf364?w=300&h=250&fit=crop' },
+          { id: 'item_45_8', name: 'Death by Oreo Sundae', price: 190, description: 'Oreo ice cream loaded with crushed Oreos and chocolate sauce', isVeg: true, isBestseller: false, category: 'Sundaes', image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=250&fit=crop' },
+          { id: 'item_45_9', name: 'Rose Falooda', price: 150, description: 'Traditional falooda with rose syrup, vermicelli, and ice cream', isVeg: true, isBestseller: true, category: 'Falooda', image: 'https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=300&h=250&fit=crop' },
+          { id: 'item_45_10', name: 'Royal Falooda', price: 180, description: 'Loaded falooda with rabdi, dry fruits, ice cream, and jelly', isVeg: true, isBestseller: false, category: 'Falooda', image: 'https://images.unsplash.com/photo-1514517521153-1be72277b32f?w=300&h=250&fit=crop' }
+        ]
       }
     ]
   };

@@ -9,8 +9,8 @@ Open `index.html` with [Live Server](https://marketplace.visualstudio.com/items?
 ## Features
 
 ### Restaurants & Menu
-- 40 real Hyderabad restaurants (Paradise, Bawarchi, Shah Ghouse, Pista House, Chutneys, and more)
-- 370+ menu items with images, prices, descriptions, and veg/non-veg indicators
+- 45 real Hyderabad restaurants (Paradise, Bawarchi, Shah Ghouse, Pista House, Chutneys, Naturals Ice Cream, and more)
+- 420+ menu items with images, prices, descriptions, and veg/non-veg indicators
 - Bestseller badges on popular items
 - Veg-only toggle filter
 - Menu search within a restaurant
@@ -103,7 +103,7 @@ foodie/
     ├── storage.js          # localStorage abstraction, user-scoped keys
     ├── auth.js             # Auth logic, modals, session management
     ├── cart.js             # Cart CRUD, conflict handling
-    ├── data.js             # 40 restaurants with full menus
+    ├── data.js             # 45 restaurants with full menus
     ├── components.js       # Header, footer, restaurant card renderers
     ├── home.js             # Homepage search, filters, grid
     ├── restaurant-detail.js # Menu display, add-to-cart, veg filter
@@ -121,7 +121,7 @@ window.Foodie
   ├── Storage     — localStorage CRUD with in-memory fallback
   ├── Auth        — Signup, login, logout, session, modals
   ├── Cart        — Add/remove/update items, conflict detection
-  ├── Data        — 40 restaurants with complete menus
+  ├── Data        — 45 restaurants with complete menus
   └── Components  — Shared UI renderers (header, footer, cards)
 ```
 
@@ -157,7 +157,7 @@ No pre-created accounts — sign up with any name, email, phone, and password to
 ## Screenshots
 
 ### Homepage
-Browse 40+ Hyderabad restaurants with search, category filters, and sort options.
+Browse 45+ Hyderabad restaurants with search, category filters, and sort options.
 
 ### Restaurant Menu
 View full menu with veg/non-veg indicators, bestseller badges, and add-to-cart controls.
